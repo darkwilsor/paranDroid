@@ -1,0 +1,61 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/nueva_alerta"
+        android:id="@+id/txt_nueva_alerta"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mail_check"
+        android:id="@+id/mail_check"
+        android:checked="true" />
+
+    <CheckBox
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_check"
+        android:id="@+id/sms_check"
+        android:checked="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ubicacion"
+        android:id="@+id/ubicacion"
+        android:checked="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/contenido"
+        android:id="@+id/contenido" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/cuerpo"
+        android:layout_weight="0.44"
+        android:hint="@string/hint_text" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_siguiente"
+        android:id="@+id/boton_siguiente"
+        android:layout_gravity="right" />
+</LinearLayout>

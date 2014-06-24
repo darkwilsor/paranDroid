@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">parandroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo_alerta">Crear Nueva Alerta</string>
+    <string name="mail_check">Enviar Alerta por Mail</string>
+    <string name="sms_check">Enviar Alerta pos SMS</string>
+    <string name="nueva_alerta">Crear Nueva Alerta</string>
+    <string name="contenido">Agregar Texto de Mensaje</string>
+    <string name="ubicacion">Adjuntar ubicación actual</string>
+    <string name="boton_siguiente">Siguiente</string>
+    <string name="hint_text">Mensaje a enviar</string>
+
+
+</resources>
